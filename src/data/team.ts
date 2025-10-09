@@ -16,10 +16,18 @@ export const teamMembers: TeamMember[] = [
     id: 'ayesha-kiani',
     name: 'Ayesha Kiani',
     position: 'Faculty Advisor',
-    image: '/ayesha.jpg',
+    image: '/people/ayesha.jpeg',
     socialLinks: [
       { type: 'email', url: 'mailto:ak8569@nyu.edu' },
       { type: 'linkedin', url: 'https://www.linkedin.com/in/ayeshakiani/' }
+    ]
+  },
+  {
+    id: 'yuyao-wang',
+    name: 'Yuyao Wang',
+    position: 'Vice President',
+    image: '/people/yy.jpg',
+    socialLinks: [
     ]
   },
   {
@@ -76,7 +84,7 @@ export const teamMembers: TeamMember[] = [
     id: 'wendy-weng',
     name: 'Wendy Weng',
     position: 'Lab Board',
-    image: `${placeholder}Wendy+Weng`,
+    image: '/people/wendy.jpg',
     socialLinks: [
     ]
   },

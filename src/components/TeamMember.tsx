@@ -35,7 +35,7 @@ const TeamMember = ({ name, position, image, socialLinks = [] }: TeamMemberProps
         <img 
           src={image} 
           alt={name} 
-          className="w-full h-full object-cover transition-all duration-300 filter grayscale hover:grayscale-0 object-center"
+          className="w-full h-full object-cover transition-all duration-300 object-center"
           loading="lazy"
         />
         
