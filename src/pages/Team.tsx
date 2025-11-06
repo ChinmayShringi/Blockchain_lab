@@ -69,7 +69,7 @@ const Team = () => {
             <div className="chip mb-4 animate-fade-in">Our People</div>
             <h1 className="section-heading animate-fade-in animation-delay-200">The Team</h1>
             <p className="text-white/80 text-lg animate-fade-in animation-delay-400">
-              The Team comprises of undergraduate and graduate students from Tandon and the Faculty Advisor is Ayesha Kiani.
+              The Team comprises of undergraduate and graduate students from Tandon and the Faculty Advisor is Ayesha Kiani!
             </p>
           </div>
         </div>
