@@ -16,7 +16,6 @@ const Team = () => {
       all: 'All',
       faculty: ['Faculty Advisor'],
       executive: ['President', 'Vice President'],
-      heads: ['Head of Community', 'Head of Marketing', 'Secretary'],
       students: ['Student Researcher', 'Lab Board']
     };
 
@@ -30,13 +29,8 @@ const Team = () => {
       },
       {
         id: 'executive',
-        label: 'Executive',
+        label: 'E board',
         positions: filterCategories.executive
-      },
-      {
-        id: 'heads',
-        label: 'Department Heads',
-        positions: filterCategories.heads
       },
       {
         id: 'students',
