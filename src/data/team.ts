@@ -23,6 +23,14 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   {
+    id: 'wendy-weng',
+    name: 'Wendy Weng',
+    position: 'President',
+    image: '/people/wendy.jpg',
+    socialLinks: [
+    ]
+  },
+  {
     id: 'yuyao-wang',
     name: 'Yuyao Wang',
     position: 'Vice President',
@@ -77,14 +85,6 @@ export const teamMembers: TeamMember[] = [
     name: 'Vaibhav Chandgir',
     position: 'Researcher',
     image: `${placeholder}Vaibhav+Chandgir`,
-    socialLinks: [
-    ]
-  },
-  {
-    id: 'wendy-weng',
-    name: 'Wendy Weng',
-    position: 'Lab Board',
-    image: '/people/wendy.jpg',
     socialLinks: [
     ]
   },

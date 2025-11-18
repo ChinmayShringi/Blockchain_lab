@@ -16,7 +16,6 @@ const Team = () => {
       all: 'All',
       faculty: ['Faculty Advisor'],
       executive: ['President', 'Vice President'],
-      heads: ['Head of Community', 'Head of Marketing', 'Secretary'],
       students: ['Student Researcher', 'Lab Board']
     };
 
@@ -30,13 +29,8 @@ const Team = () => {
       },
       {
         id: 'executive',
-        label: 'Executive',
+        label: 'E board',
         positions: filterCategories.executive
-      },
-      {
-        id: 'heads',
-        label: 'Department Heads',
-        positions: filterCategories.heads
       },
       {
         id: 'students',
@@ -69,7 +63,7 @@ const Team = () => {
             <div className="chip mb-4 animate-fade-in">Our People</div>
             <h1 className="section-heading animate-fade-in animation-delay-200">The Team</h1>
             <p className="text-white/80 text-lg animate-fade-in animation-delay-400">
-              The Team comprises of undergraduate and graduate students from Tandon and the Faculty Advisor is Ayesha Kiani.
+              The Team comprises of undergraduate and graduate students from Tandon and the Faculty Advisor is Ayesha Kiani!
             </p>
           </div>
         </div>
